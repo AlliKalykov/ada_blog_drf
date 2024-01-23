@@ -10,7 +10,6 @@ class BlogListView(ListView):
     template_name = 'home.html'
 
 
-
 class BlogDetailView(DetailView): # новое
     model = Post
     template_name = 'post_detail.html'
